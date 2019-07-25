@@ -1,0 +1,128 @@
+/*
+    Header
+*/
+.font-header
+{
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 40px;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    padding: 0em 0em 0em 2em;
+    display: inline-block;
+    text-align: center;
+}
+
+.page-header
+{
+    /*border: 0.1px solid #0a3d62;*/
+    background: black;
+    /*padding: 0em 0em 0em 1em;*/
+    /*background: linear-gradient(to right, #474787, #227093); */
+    height: 6em;
+    padding: 0em 0em 2em 0em;
+}
+
+.logo-img
+{
+    height: 6em;
+    width: 14em;
+    padding: 1em 0em 0em 0em; 
+}
+
+
+
+/* 
+    Navigation bar
+*/
+
+.font-navigation-bar
+{
+    border-right: 0.075em solid #eb2f06;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+    padding: 0em 5% 0em 5%;
+}
+
+.navigation-bar
+{
+    background: #fa983a;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border-left: 1px solid #eb2f06;
+    border-right: 1px solid #eb2f06;
+    border-bottom: 1px solid #eb2f06;
+    border-top: none; 
+}
+
+.color-font-navigation-bar
+{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.button-li
+{ 
+    display: inline;
+    
+}
+
+.button-li:hover 
+{
+    /*background-color: #0dc03a;
+    padding-bottom: 2px;*/
+    filter:alpha(opacity=70); 
+    -moz-opacity: 0.65; 
+    opacity: 0.65;
+    position: relative; 
+    top: -1px;
+    cursor:allowed;
+}
+
+
+
+
+/*
+Section
+*/
+.page-section
+{
+    background: antiquewhite;
+    border: 2px solid gray;
+    height: 80em;
+    /*clear: both;*/
+}
+
+
+.font-paragraph 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(15, 6, 6);
+    font-size: 1em;
+}
+
+#page-subtitles h3
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    color:rgb(41, 39, 39);
+}
+
+/* Footer */
+.page-footer
+{
+    background: rgb(65, 50, 50);
+    height: 15em;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.page-footer-a
+{
+    color: whitesmoke;
+    font-size: 1em;
+}
