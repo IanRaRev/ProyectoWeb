@@ -6,10 +6,31 @@
 
 
 
+.body
+{
+    font-size: 16px;
+}
+
+.color1
+{
+    background-color: darkgray;
+}
+
+.color2
+{
+    background-color: goldenrod;
+}
 
 
+.color3
+{
+    background-color: royalblue;
+}
 
-
+.color4
+{
+    background-color: greenyellow;
+}
 
 
 
