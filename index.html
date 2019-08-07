@@ -31,6 +31,44 @@
 
         <script src="js/main.js"></script>
 
+        <!-- Aplicando Mobile First a la Barra de Navegación-->
+        <!-- Inverse cambia la barra a colo negro y navbar-fixed-top fija la barra en la parte de arriba-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" 
+                    data-target="#bs-example-navbar-collapse-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"> Ask Your Question </a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"> Inicio </a></li>
+                        <li><a href="#"> Preguntas </a></li>
+                        <!--
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Cursos <span class="caret"></span></a> 
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> Bootstrap3 </a></li>
+                                <li><a href="#"> Ruby </a></li>
+                                <li><a href="#"> Django </a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                    <!-- Buscador con formulario -->
+                    <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Buscar">
+                    </div>
+                    <button class="btn btn-primary"> Buscar </button>
+                </form>
+                </div> 
+            </div>
+        </nav>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
