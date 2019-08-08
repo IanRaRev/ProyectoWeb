@@ -5,7 +5,7 @@
    ========================================================================== */
 
 
-
+/*
 .body
 {
     font-size: 16px;
@@ -32,12 +32,42 @@
     background-color: greenyellow;
 }
 
+*/
+
+/* Modificamos y manipulamos los iconos */
+-body
+{
+    font-size: 20px;
+}
+
+.app
+{
+    font-size: 50px;
+}
+
+.color1
+{
+    background-color: darkgray;
+}
+
+.color2
+{
+    background-color: goldenrod;
+}
 
 
+.color3
+{
+    background-color: royalblue;
+}
 
+.color4
+{
+    background-color: greenyellow;
+}
 
-
-
-
-
+.color5
+{
+    background-color: indianred;
+}
 
